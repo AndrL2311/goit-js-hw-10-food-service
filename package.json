@@ -1,7 +1,7 @@
 {
   "name": "goit-js-hw-10-food-service",
   "version": "1.0.0",
-  "description": "- Создан репозиторий `goit-js-hw-10-food-service`.\r - При сдаче домашней работы есть две ссылки: на исходные файлы и рабочую\r   страницу на GitHub Pages.\r - При посещении рабочей страницы (GitHub Pages) задания, в консоли нету ошибок и\r   предупреждений.\r - Имена переменных и функций понятные, описательные.\r - Проект собран с помощью `Parcel`.\r - Код отформатирован `Prettier`.",
+  "description": "goit-js-hw-10-food-service",
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
