@@ -1,25 +1,28 @@
 {
-  "name": "goit-js-hw-10-food-service",
-  "version": "1.0.0",
-  "description": "goit-js-hw-10-food-service",
+  "name": "parcel-project-template",
+  "version": "1.1.0",
+  "description": "",
   "main": "index.js",
+  "homepage": "https://andrl2311.github.io/goit-js-hw-10-food-service/",
   "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-10-food-service/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AndrL2311/goit-js-hw-10-food-service.git"
+    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
   },
-  "author": "Adrey L",
+  "keywords": [],
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AndrL2311/goit-js-hw-10-food-service/issues"
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
-  "homepage": "https://andrl2311.github.io/goit-js-hw-10-food-service/",
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
-  },
-  "dependencies": {},
-  "keywords": []
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  }
 }
