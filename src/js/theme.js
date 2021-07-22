@@ -42,5 +42,9 @@ function thatTheme() {
   if (refs.body.classList.contains(Theme.DARK))
     refs.body.classList.remove(Theme.DARK);
 
+  // refs.body.classList.contains(Theme.DARK)
+  //   ? refs.body.classList.replace(Theme.LIGH, Theme.DARK)
+  //   : elem.classList.replace(Theme.DARK, Theme.LIGHT);
+
   refs.body.classList.add(Theme[localStorage.getItem("theme")]);
 }
